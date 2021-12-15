@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transições em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        img {
+            cursor: pointer;
+            /* height: 146.4px; */
+            height: 200px;
+            object-fit: cover;
+            transition: all 0.5s linear;
+            /* width: 220px; */
+            width: 200px;
+        }
+
+        img:hover {
+            height: 732px;
+            width: 1100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transições em CSS</h1>
+    <p>Passe o cursor do mouse na imagem.</p>
+    <div>
+        <img src="https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="" title="Aumentando a proporção da imagem suavemente">
+    </div>
+</body>
+
+</html>

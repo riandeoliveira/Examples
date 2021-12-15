@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Baixadas</title>
+    <style>
+        /* Além de importar fontes, também é possível baixá-las. */
+        /* É preciso tomar CUIDADO, pois existem fontes que não possuem acentuações! */
+
+        /* O font-face é usado para utilizar uma fonte instalada. */
+        @font-face {
+            font-family: 'Nasalization';
+            src: url('idroid.otf') format('opentype');
+
+            /* O format pode ser: */
+            /* - opentype (otf) */
+            /* - truetype (ttf) */
+            /* - embedded-opentype */
+            /* - truetype-att */
+            /* - svg */
+        }
+
+        body {
+            font-family: 'Nasalization', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam in amet qui alias, saepe natus eius eum nihil,
+        veniam temporibus id cumque consequatur atque ipsa odit obcaecati, rem quisquam nobis? Lorem, ipsum dolor sit
+        amet consectetur adipisicing elit. Ducimus asperiores eveniet ipsum exercitationem fugiat delectus a amet
+        repudiandae animi? Officiis optio fuga ea amet. Libero autem ipsam blanditiis dolor earum. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Non temporibus beatae veniam voluptate minima recusandae ex optio, totam vero
+        neque blanditiis, fuga atque error est pariatur! Est deleniti veniam autem.</p>
+</body>
+
+</html>

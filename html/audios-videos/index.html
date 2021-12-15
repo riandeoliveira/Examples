@@ -1,0 +1,39 @@
+<!-- Exemplos de áudios em HTML. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduzindo Áudios e Vídeos</title>
+</head>
+
+<body>
+    <h1>Áudios</h1>
+    <p>Aprendendo a reproduzir áudios em HTML.</p>
+    <!-- Para uma compatibilidade com todos os navegadores é recomendado buscar aúdios apenas no formato mp3 -->
+    <!-- O "autoplay" reproduz o aúdio ao entrar no site. O "controls" exibe o controlador do aúdio. Já o "loop" reinicia o áudio sempre quando o mesmo chega ao fim. -->
+    <audio src="midia/vitalwhales_unicornheads.mp3" autoplay controls loop></audio>
+    <h1>Vídeos</h1>
+    <p>Aprendendo a reproduzir vídeos em HTML.</p>
+    <h2>Vídeos internos (hospedagem própria)</h2>
+    <p>Hospedar vídeos no próprio site é caro e consome muita banda. No exemplo abaixo, o vídeo possui 10 segundos de
+        duração e pesa 6 MB. Porém, quanto maior for a resolução e a duração, maior será o consumo e menor será a
+        otimização.</p>
+    <!-- Para vídeos, é recomendado o formato mp4. -->
+    <!-- O atributo "poster" adiciona uma thumbnail (foto de capa) ao vídeo. -->
+    <video src="midia/production ID_5155396 (1).mp4" controls loop poster="img/Captura de tela 2021-06-20 145708.png"
+        width="560" height="315"></video>
+    <h2>Vídeos externos (incorporação)</h2>
+    <p>Hospedar vídeos de fontes externas é muito mais prático, barato e não consome os dados do servidor de onde o site
+        se encontra. O exemplo abaixo foi incorporado do Youtube. AVISO: Direitos Autorais também são válidos neste
+        caso, portanto, é mais recomendável o autor do site postar seu vídeo no Youtube e depois incorporá-lo no site.
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8zCfZ4Cqh7Y" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</body>
+
+</html>

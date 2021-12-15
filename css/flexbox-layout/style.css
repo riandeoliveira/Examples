@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.containers {
+    background-color: #0000003d;
+    color: #fff;
+    display: flex;
+    height: 800px;
+}
+
+.containers div {
+    background-color: #0000ff;
+    font-size: 3em;
+    height: 100px;
+    margin: 8px;
+    text-align: center;
+    width: 100px;
+}

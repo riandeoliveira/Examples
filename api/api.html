@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumindo uma API</title>
+    <style>
+        body {
+            background-color: #2b2929;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: #3551cf;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="abc">Consumindo uma API</h1>
+    <p>
+        <span>Ao acessar um site como:</span>
+        <a href="https://api.github.com/" rel="external" target="_blank">https://api.github.com/</a>
+        <span>, é possível acessar a API do GitHub.</span>
+    </p>
+    <p>Neste link pode ser visto um JSON contendo informações públicas do GitHub que podem ser utilizadas:</p>
+    <img src="api-1.png" alt="">
+    <p>Ao copiar e colar na internet o caminho marcado em vermelho acima, trocando {user} pelo nome de usuário do
+        GitHub, como por exemplo: "riandeoliveira", obtém-se esta tela:</p>
+    <img src="api-2.png" alt="">
+    <br>
+    <div id="userInfo">
+        <p></p>
+        <ul></ul>
+    </div>
+    <br>
+    <p>Mais informações no código-fonte da página!</p>
+    <script>
+        // Link da API.
+        const url = "https://api.github.com/users/riandeoliveira";
+
+        // O comando 'fetch' irá trazer a resposta da URL acima, mas ele não sabe que é um JSON.
+        fetch(url)
+
+            // O comando 'then' é um promise: um recurso do JS para pegar respostas de alguma coisa.
+            // A 'Arrow function anônima' abaixo é bem mais curta que a tradicional, porém não pode ser chamada depois.
+            // O 'json()' diz que a resposta da API é um arquivo JSON.
+            .then(resposta => resposta.json())
+
+            // Outro 'then' é usado para armazenar o resultado do primeiro 'then'. Este último possui o JSON completo e os dados da conta podem ser acessados e exibidos dentro dele.
+            .then(dados => {
+                userInfo.children[0].innerHTML = `Os dados obtidos da API do GitHub da conta ${dados.login} foram:`;
+                userInfo.children[1].innerHTML +=
+                    `<li>Nome: ${dados.name}</li>
+             <li>Localização: ${dados.location}</li>
+             <li>
+                <span>Foto de perfil atual:</span>
+                <br><br>
+                <img src="${dados.avatar_url}" width="100"></img>
+             </li>`;
+            });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+header {
+    background-color: #4b4bd6;
+    height: 100px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    padding-top: 15px;
+}
+
+nav {
+    background-color: #4b4bd6;
+    height: 28px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: green;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 9px 9px 3px #0000007e;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.imagem-adaptavel {
+    text-align: center;
+}
+
+img {
+    /* Resolve a distorção de uma imagem recortando ela para caber na largura e altura especificadas. */
+    object-fit: cover;
+    width: 100%;
+}
+
+.video-area {
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.video-adaptavel {
+    background-color: #ccc;
+    height: 0px;
+    padding: 0px 0px 56.25%;
+    position: relative;
+}
+
+iframe {
+    border: 0px;
+    bottom: 0px;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+/* Área das media queries. Ficam no final dos códigos CSS. */
+
+@media all and (min-width: 1600px) {
+    body {
+        background-color: #ff0000;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1600px) {
+    body {
+        background-color: #ff0000d5;
+    }
+}
+
+@media all and (min-width: 960px) and (max-width: 1200px) {
+    body {
+        background-color: #ff0000aa;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 960px) {
+    body {
+        background-color: #ff000080;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 760px) {
+    body {
+        background-color: #ff000056;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: #ff00002b;
+    }
+}
+
+@media all and (max-width: 320px) {
+    body {
+        background-color: #ff000001;
+    }
+}
+
+/* Media query que é executada ao ativar a função de print (imprimir). */
+@media only print {
+    body {
+        background-color: yellow;
+    }
+}
+
+/* Media queries que são ativadas dependendo da viewport. */
+
+/* Visor mais largo do que mais alto, ex: 1920x1080. */
+@media all and (orientation: landscape) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Visor mais alto do que mais largo, ex: 720x1512. */
+@media all and (orientation: portrait) {
+    body {
+        font-size: 14px;
+    }
+}
