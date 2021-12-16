@@ -1,0 +1,12 @@
+{
+    "firstName": "Rian",
+    "middleName": "Dias",
+    "lastName": "de Oliveira",
+    "age": 20,
+    "sex": "M",
+    "single": true,
+    "isEmployed": false,
+    "height": 1.80,
+    "weight": 75,
+    "favoriteLanguages": ["HTML", "CSS", "JS"]
+}
