@@ -1,12 +1,14 @@
 // Operador Spread.
 
+const results = [];
+
 // Em arrays.
 
 const array1 = [1, 2, 3];
 const array2 = [4, 5, 6];
 
 // Combinando os dois arrays e acrescentando mais valores.
-const combination = [...array1, ...array2, 7, 8, 9, 10];
+results[0] = [...array1, ...array2, 7, 8, 9, 10];
 
 // Em objects.
 
@@ -15,7 +17,7 @@ const object1 = {
     name: "Rian",
 }
 
-const object2 = {
+results[1] = {
     ...object1,
     single: true
 }
@@ -31,8 +33,6 @@ const addInfo = info => {
     return newInfo;
 }
 
-const addInfoArgs = addInfo({ firstName: "User", lastName: "Test" });
+results[2] = addInfo({ firstName: "User", lastName: "Test" });
 
-console.log(combination);
-console.log(object2);
-console.log(addInfoArgs);
+results.map(item => console.log(item));
