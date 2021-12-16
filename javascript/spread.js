@@ -1,5 +1,7 @@
 // Operador Spread.
 
+
+
 const results = [];
 
 // Em arrays.
@@ -34,5 +36,7 @@ const addInfo = info => {
 }
 
 results[2] = addInfo({ firstName: "User", lastName: "Test" });
+
+
 
 results.map(item => console.log(item));
