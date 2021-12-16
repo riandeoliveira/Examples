@@ -1,7 +1,5 @@
 // O forEach pega cada elemento de um array e executa algo.
 
-var a = ['123', 'abc', 'Rian', "AS"];
+const example = ['123', 'abc', 'Rian', "AS"];
 
-a.forEach(() => {
-    console.log(a)
-});
+example.forEach(() => console.log(example));
