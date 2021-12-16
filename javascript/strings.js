@@ -27,8 +27,14 @@ methods[5] = example.trim();
 // Retorna o caractere do indíce (posição) passado na string desejada.
 methods[6] = example.charAt(6);
 
-// Transforma a string em um array e a separa em um novo elemento de acordo com o caractere específicado.
+// Transforma a string em um array e a separa em um novo elemento de acordo com o caractere especificado.
 methods[7] = example.split(" ");
+
+// Verifica se algo está incluído dentro de alguma coisa.
+methods[8] = example.includes("é");
+
+// Repete algo em um número x de vezes informado.
+methods[9] = example.repeat(3);
 
 
 
