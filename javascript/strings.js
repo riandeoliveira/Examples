@@ -36,6 +36,12 @@ methods[8] = example.includes("é");
 // Repete algo em um número x de vezes informado.
 methods[9] = example.repeat(3);
 
+// Recebe um número mínimo de caracteres, se não for atendido exibe algo no INÍCIO da string.
+methods[10] = example.padStart(50, "*");
+
+// Recebe um número mínimo de caracteres, se não for atendido exibe algo no FINAL da string.
+methods[11] = example.padEnd(50, "*");
+
 
 
 methods.map((item, i) => console.log(`${typeof item} – ${i}: ${item}`));
