@@ -1,6 +1,7 @@
-// Métodos de strings.
+// Métodos de Strings.
 
 const methods = [];
+
 const example = " Este é um exemplo de string";
 
 // Retorna o indíce (posição) do caractere passado na string desejada.
@@ -27,4 +28,6 @@ methods[6] = example.charAt(6);
 // Transforma a string em um array e a separa em um novo elemento de acordo com o caractere específicado.
 methods[7] = example.split(" ");
 
-for (let i in methods) console.log(`${i}: ${methods[i]}`);
+
+
+methods.map((item, i) => console.log(`${i}: ${item}`));
