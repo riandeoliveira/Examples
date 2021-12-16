@@ -1,45 +1,62 @@
-// Array's (vetores) são variáveis compostas, que podem armazenar vários elementos. Cada elemento é comsposto por seu valor e uma chave de identificação.
+// Métodos de Arrays.
 
-// Posições: 0, 1 e 2.
-// 0 para 5, 1 para 8 e 2 para 4. Sempre começa em zero!
-let num = [5, 8, 4];
+const methods = [];
 
-// Exibindo o array.
-console.log(`O array completo é ${num}`);
-console.log(`O seu primeiro valor é ${num[0]}`);
+const example1 = ["Rian", 20, true, 15.12];
+const example2 = ["Giullianno", "Márcia", "Jamile", "Gustavo"];
+const example3 = [45, 4, 9, 16, 25];
 
-// Adicionando um elemento no array. Ele só foi criado até o 2, então o JavaScript cria o 3.
-num[3] = 6;
-console.log(`O array agora é ${num}`);
+// Transforma todo o array em uma string.
+methods[0] = example1.toString();
 
-// Adicionando um elemento no final do array.
-num.push(7);
-console.log(`O array agora é ${num}`);
+// Transforma todo o array em uma string e separa os elementos pelo caractere desejado.
+methods[1] = example1.join(" – ");
 
-// Contando os elementos dentro do array.
-console.log(`O array possui ${num.length} elementos`);
+// Retorna o indíce (posição) do elemento desejado.
+methods[2] = example1.indexOf(15.12);
 
-// Colocando os elementos do array em ordem crescente.
-num.sort();
-console.log(`O array em ordem crescente é ${num}\n`);
+// Remove o último item do array, ALTERANDO ele.
+methods[3] = example1.pop();
 
-// Exibindo um array enorme com números aleatórios e os ordenando, utilizando uma estrutura de repetição para economizar linhas de código.
-let randomNum = [7, 4, 2, 8, 4, 0, 1, 1, 2, 9, 5, 8, 1, 3, 5, 6, 3, 7, 9, 2];
-console.log(`Este array maior possui ${randomNum.length} elementos.`);
-randomNum.sort();
-console.log("Eles estão em ordem crescente abaixo:");
-for (let pos = 0; pos < randomNum.length; pos++) {
-    console.log(`O valor ${randomNum[pos]} está na posição ${pos}`);
-}
+// Remove o primeiro item do array, ALTERANDO ele.
+methods[4] = example1.shift();
 
-console.log("\nForma simplificada de escrever o for, para array's.");
-// For simplificado para variáveis compostas.
-// Ambos os for's possuem a mesma funcionalidade neste contexto!
-// Se lê: "Para cada posição dentro da variável composta, execute o bloco de código."
-for (let posi in randomNum) {
-    console.log(`A posição ${posi} possui o valor ${randomNum[posi]}`);
-}
+// Adiciona um item no final do array, ALTERANDO ele.
+methods[5] = example1.push(15.12);
 
-// Acessando elementos dentro do array.
-// Se lê: "Busque o primeiro elemento 4 e me retorne a posição atual dele."
-console.log(randomNum.indexOf(4));
+// Adiciona um item no início do array, ALTERANDO ele.
+methods[6] = example1.unshift("Rian");
+
+// Recebe um indíce e a quantidade de itens a serem removidos e os deleta do array, ALTERANDO ele.
+methods[7] = example1.splice(1, 2);
+
+// Concatena um array com outro array.
+methods[8] = example1.concat(example2);
+
+// Ordena o array em ordem alfabética, ALTERANDO ele.
+methods[9] = example2.sort();
+
+// Inverte a ordem do array.
+methods[10] = example1.reverse();
+
+// Mapeia o array, executando uma função para cada um dos itens, gerando um novo array com os resultados.
+methods[11] = example3.map(item => item * 2);
+
+// Filtra um array, adicionando o elemento verificado em um novo array se ele for true.
+methods[12] = example3.filter(item => item < 20 ? true : false);
+
+// Retorna true se a condição desejada for verdadeira para todos os itens do array, senão retorna false.
+methods[13] = example3.every(item => item > 20 ? true : false);
+
+// Retorna true se a condição desejada for verdadeira para pelo menos um item do array, senão retorna false.
+methods[14] = example3.some(item => item > 20 ? true : false);
+
+// Procura um item no array e o retorna se encontrar.
+methods[15] = example3.find(item => item === 16 ? true : false);
+
+// Procura um item no array e retorna o indíce dele se o encontrar.
+methods[16] = example3.findIndex(item => item === 16 ? true : false);
+
+
+
+methods.map((item, i) => console.log(`${i}: ${item}`));
