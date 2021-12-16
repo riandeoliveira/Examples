@@ -1,5 +1,7 @@
 // Métodos de Arrays.
 
+
+
 const methods = [];
 
 const example1 = ["Rian", 20, true, 15.12];
@@ -59,4 +61,4 @@ methods[16] = example3.findIndex(item => item === 16 ? true : false);
 
 
 
-methods.map((item, i) => console.log(`${i}: ${item}`));
+methods.map((item, i) => console.log(`${typeof item} – ${i}: ${item}`));

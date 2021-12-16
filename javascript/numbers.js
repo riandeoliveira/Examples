@@ -1,5 +1,7 @@
 // Métodos de Numbers.
 
+
+
 const methods = [];
 
 const example = 10.12345;
@@ -18,4 +20,4 @@ methods[3] = parseFloat(example);
 
 
 
-methods.map((item, i) => console.log(`${i}: ${item}`));
+methods.map((item, i) => console.log(`${typeof item} – ${i}: ${item}`));

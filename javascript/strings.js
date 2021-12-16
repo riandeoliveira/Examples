@@ -1,5 +1,7 @@
 // Métodos de Strings.
 
+
+
 const methods = [];
 
 const example = " Este é um exemplo de string";
@@ -30,4 +32,4 @@ methods[7] = example.split(" ");
 
 
 
-methods.map((item, i) => console.log(`${i}: ${item}`));
+methods.map((item, i) => console.log(`${typeof item} – ${i}: ${item}`));
