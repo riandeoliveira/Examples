@@ -1,3 +1,4 @@
 <?php
 
-echo "novo-exemplo";
+// Funções para manipulação de strings.
+
