@@ -1,5 +1,7 @@
 <?php
 
+// Funções para manipulação de números.
+
 $valueX = 5;
 $valueY = 2;
 
