@@ -1,4 +1,5 @@
 // Importações de arquivos com códigos que serão usados neste componente.
+import { useState } from 'react';
 import './App.css';
 import Components from './examples/Components';
 import Props from './examples/props/Props';
@@ -10,6 +11,8 @@ import States from './examples/States';
 import EventProps from './examples/events/eventsProps/EventProps';
 import Conditionals from './examples/Conditionals';
 import Lists from './examples/Lists';
+import Name from './examples/stateLift/Name';
+import StateLift from './examples/stateLift/StateLift';
 
 const App = () => {
 
@@ -17,6 +20,8 @@ const App = () => {
   const phrase = 'Estou aprendendo React.';
 
   const frameworks = ['React', 'Angular', 'Vue'];
+
+  const [name, setName] = useState();
 
   {/* Renderização dos componentes. */ }
   return (
@@ -63,6 +68,10 @@ const App = () => {
         {/* Exemplos de Renderização de Listas. */}
         <Lists items={frameworks} />
         <Lists items={[]} />
+
+        {/* Exemplos de State Lift. */}
+        <Name name={name} />
+        <StateLift setName={setName} />
       </main>
     </div>
   );
