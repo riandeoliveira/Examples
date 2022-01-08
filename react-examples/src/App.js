@@ -8,8 +8,10 @@ import Types from './examples/props/Types';
 import Events from './examples/events/Events';
 import States from './examples/States';
 import EventProps from './examples/events/eventsProps/EventProps';
+import Conditionals from './examples/Conditionals';
 
 const App = () => {
+
   const welcome = 'Olá, Mundo!';
   const phrase = 'Estou aprendendo React.';
 
@@ -31,7 +33,7 @@ const App = () => {
         <Props fullName='Paulo Silva' age='24' sex='M' />
         <Props fullName='Angélica Gonçalvez' age='19' sex='F' />
 
-        {/* Exemplos de Módulos CSS. */}
+        {/* Exemplo de Módulos CSS. */}
         <Example />
 
         {/* Exemplo de Fragmentos. */}
@@ -42,15 +44,18 @@ const App = () => {
         <Types brand='Fiat' releaseYear={1964} />
         <Types brand='Renault' />
 
-        {/* Exemplo de Eventos. */}
+        {/* Exemplos de Eventos. */}
         <Events btn={1} />
         <Events btn={2} />
 
-        {/* Exemplos de Estados. */}
+        {/* Exemplo de Estados. */}
         <States />
 
-        {/* Exemplos de Eventos em Props. */}
+        {/* Exemplo de Eventos em Props. */}
         <EventProps />
+
+        {/* Exemplo de Renderização Condicional. */}
+        <Conditionals />
       </main>
     </div>
   );
