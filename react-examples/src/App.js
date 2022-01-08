@@ -18,6 +18,7 @@ import Home from './examples/router/pages/Home';
 import Company from './examples/router/pages/Company';
 import Contact from './examples/router/pages/Contact';
 import Navbar from './examples/router/Navbar';
+import Icons from './examples/Icons';
 
 const App = () => {
 
@@ -87,6 +88,9 @@ const App = () => {
             <Route path="/contato" element={<Contact />}></Route>
           </Routes>
         </Router>
+
+        {/* Exemplos de Icons. */}
+        <Icons />
       </main>
     </div>
   );
