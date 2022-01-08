@@ -9,11 +9,14 @@ import Events from './examples/events/Events';
 import States from './examples/States';
 import EventProps from './examples/events/eventsProps/EventProps';
 import Conditionals from './examples/Conditionals';
+import Lists from './examples/Lists';
 
 const App = () => {
 
   const welcome = 'Olá, Mundo!';
   const phrase = 'Estou aprendendo React.';
+
+  const frameworks = ['React', 'Angular', 'Vue'];
 
   {/* Renderização dos componentes. */ }
   return (
@@ -56,6 +59,10 @@ const App = () => {
 
         {/* Exemplo de Renderização Condicional. */}
         <Conditionals />
+
+        {/* Exemplos de Renderização de Listas. */}
+        <Lists items={frameworks} />
+        <Lists items={[]} />
       </main>
     </div>
   );
