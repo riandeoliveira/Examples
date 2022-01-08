@@ -1,5 +1,4 @@
 // Importações de arquivos com códigos que serão usados neste componente.
-import { useState } from 'react';
 import './App.css';
 import Components from './examples/Components';
 import Props from './examples/props/Props';
@@ -13,6 +12,12 @@ import Conditionals from './examples/Conditionals';
 import Lists from './examples/Lists';
 import Name from './examples/stateLift/Name';
 import StateLift from './examples/stateLift/StateLift';
+import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './examples/router/pages/Home';
+import Company from './examples/router/pages/Company';
+import Contact from './examples/router/pages/Contact';
+import Navbar from './examples/router/Navbar';
 
 const App = () => {
 
@@ -72,6 +77,16 @@ const App = () => {
         {/* Exemplos de State Lift. */}
         <Name name={name} />
         <StateLift setName={setName} />
+
+        {/* Exemplos de Router. */}
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route path="/empresa" element={<Company />}></Route>
+            <Route path="/contato" element={<Contact />}></Route>
+          </Routes>
+        </Router>
       </main>
     </div>
   );
