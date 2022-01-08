@@ -1,9 +1,12 @@
+// Arquivo script da aplicação que irá renderizar o componente principal App no HTML.
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Renderização do componente App, na <div> com id="root".
 ReactDOM.render(
   <React.StrictMode>
     <App />
