@@ -19,6 +19,7 @@ import Company from './examples/router/pages/Company';
 import Contact from './examples/router/pages/Contact';
 import Navbar from './examples/router/Navbar';
 import Icons from './examples/Icons';
+import ReactBootstrap from './examples/react-bootstrap/ReactBootstrap';
 
 const App = () => {
 
@@ -91,6 +92,9 @@ const App = () => {
 
         {/* Exemplos de Icons. */}
         <Icons />
+
+        {/* Exemplo de Bootstrap no React. */}
+        <ReactBootstrap />
       </main>
     </div>
   );
