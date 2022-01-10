@@ -2,7 +2,6 @@
 
 const Sequelize = require('sequelize');
 
-// Nome do DB, usuário, senha, JSON.
 const sequelize = new Sequelize('nodedb', 'root', '', {
     host: 'localhost',
     dialect: 'mysql'
@@ -28,8 +27,7 @@ User.create({
     last_name: 'Dias de Oliveira',
     age: 20,
     email: 'riandiasdeoliveira2001@gmail.com'
-
 });
 
-// Sincronizando com o banco.
+// Sincronizando com o banco (só precisa ser executado UMA única vez).
 User.sync();
