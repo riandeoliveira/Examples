@@ -9,6 +9,9 @@ use register
 <!-- Exibe os bancos. -->
 show dbs
 
+<!-- Exibe todas as collections de um banco. -->
+show collections
+
 <!-- Exclui um banco de dados. -->
 db.users.drop()
 
