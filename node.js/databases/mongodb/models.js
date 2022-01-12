@@ -3,10 +3,13 @@
 const mongoose = require('mongoose');
 
 const data = {
-
+    host: 'localhost',
+    database: 'register'
 }
 
-mongoose.connect('mongodb://localhost/register').then(() => {
+const { host, database } = data
+
+mongoose.connect(`mongodb://${host}/${database}`).then(() => {
     console.log('Conexão bem sucedida!');
 }).catch(error => {
     console.log('ERRO! Não foi possível se conectar ao MongoDB ' + error);
