@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 const data = {
-    host: 'localhost',
+    host: 'localhost',  
     database: 'register'
 }
 
