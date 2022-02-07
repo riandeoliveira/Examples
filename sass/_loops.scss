@@ -1,0 +1,20 @@
+@for $i from 1 to 6 {
+    .text-#{$i} {
+        font-size: 15px * $i;
+    }
+}
+
+$colors: (
+    color1: red,
+    color2: blue,
+    color3: yellow,
+    color4: green
+);
+
+$fonts: 15px, 30px, 45px, 60px;
+
+@each $key, $color in $colors {
+    .#{$color}-text {
+        color: $color;
+    }
+}

@@ -1,0 +1,9 @@
+.btn {
+    cursor: pointer;
+    font-size: 32px;
+
+    &:hover {
+        padding: 20px;
+        transition: all 1s;
+    }
+}
