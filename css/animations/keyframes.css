@@ -1,0 +1,43 @@
+@keyframes transform {
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(260px);
+    }
+
+    50% {
+        transform: translate(260px, 250px);
+    }
+
+    75% {
+        transform: translate(-5px, 250px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2.5);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes skew {
+    to {
+        transform: skew(-180deg);
+    }
+}

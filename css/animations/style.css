@@ -1,0 +1,20 @@
+.box-1 {
+    animation: transform 3s infinite ease-in-out alternate;
+    background-color: var(--box-1-color);
+}
+
+.box-2 {
+    animation: scale 3s infinite ease-in-out alternate;
+    background-color: var(--box-2-color);
+}
+
+.box-3 {
+    animation: rotate 3s infinite ease-in-out alternate;
+    background-color: var(--box-3-color);
+    border-radius: 0;
+}
+
+.box-4 {
+    animation: skew 3s infinite ease-in-out alternate;
+    background-color: var(--box-4-color);
+}
