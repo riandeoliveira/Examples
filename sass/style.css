@@ -9,7 +9,6 @@ div {
 .container {
   background-color: red;
 }
-
 .container p {
   color: blue;
 }
@@ -51,22 +50,13 @@ div {
 }
 
 .flex, body {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 body {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: 100%;
 }
 
@@ -74,10 +64,8 @@ body {
   cursor: pointer;
   font-size: 32px;
 }
-
 .btn:hover {
   padding: 20px;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -88,11 +76,9 @@ body {
 
 div {
   height: 100px;
-  -webkit-box-shadow: 3px 3px 4px 1px rgba(255, 165, 0, 0.6);
-          box-shadow: 3px 3px 4px 1px rgba(255, 165, 0, 0.6);
+  box-shadow: 3px 3px 4px 1px rgba(255, 165, 0, 0.6);
 }
 
 .btn {
   background-color: yellow;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
