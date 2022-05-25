@@ -65,6 +65,6 @@ setTimeout(() => {
 }, 5000);
 
 // Retorna verdadeiro se um arquivo ou diretório existe, senão retorna falso.
-if (fs.existsSync("./index.js")) {
-  console.log("The file exists!"); // The file exists!
-} else console.log("The file doesn't exists!");
+fs.existsSync("./index.js")
+  ? console.log("The file exists!") // The file exists!
+  : console.log("The file doesn't exists!");
