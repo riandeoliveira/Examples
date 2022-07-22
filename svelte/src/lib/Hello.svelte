@@ -1,15 +1,15 @@
 <script lang="ts">
   let count = 0;
 
-  const increment = () => {
-    count++;
-  };
+  const increment = () => count++;
 </script>
 
 <div>
   <h1>Hello, Svelte!</h1>
   <button type="button" on:click={increment}>Click me</button>
   <span>Count: {count}</span>
+  <div>asd</div>
+  <div>asd</div>
 </div>
 
 <style>

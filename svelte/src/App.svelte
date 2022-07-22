@@ -4,6 +4,7 @@
 
 <main>
   <Hello />
+  <div>asdasdasd</div>
 </main>
 
 <style>
