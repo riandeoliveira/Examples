@@ -1,23 +1,9 @@
-// Métodos de Numbers.
+const number = 20.22;
 
-
-
-const methods = [];
-
-const example = 10.12345;
-
-// Tranforma o number em uma string.
-methods[0] = example.toString();
-
-// Retorna o número de casas decimais solicitado.
-methods[1] = example.toFixed(2);
-
-// Tranforma uma string em um int.
-methods[2] = parseInt(example);
-
-// Transforma uma string em um float.
-methods[3] = parseFloat(example);
-
-
-
-methods.map((item, i) => console.log(`${typeof item} – ${i}: ${item}`));
+Number.isFinite(number); // true
+Number.isInteger(number); // false
+Number.isNaN(number); // false
+Number.parseInt(number); // 20
+number.toFixed(3); // 20.220
+number.toLocaleString(); // 20,22 -> pt-BR (Brazil)
+number.toString(); // "20.22"
