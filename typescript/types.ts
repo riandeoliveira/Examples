@@ -1,54 +1,26 @@
-// boolean (true, false)
-let isOpen: boolean;
-isOpen = true;
-
-// string ('foo', "foo", `foo`)
-let message: string;
-message = `foo ${isOpen}`;
-
-// number (int, float, hex, binary)
-let total: number;
-total = 0xff0;
-
-// array (type[])
-
-let items: string[];
-items = ["foo", "bar"];
-
-let values: Array<number>;
-values = [1, 2, 3];
-
-// tuple
-let title: [number, string];
-title = [1, "foo"];
-
-// enum
-enum Colors {
-  white = "#fff",
-  black = "#000",
+enum WeekDays {
+  sunday = 0,
+  monday = 1,
+  tuesday = 2,
+  wednesday = 3,
+  thursday = 4,
+  friday = 5,
+  saturday = 6,
 }
 
-// any (qualquer coisa. NÃO RECOMENDADO!)
-let anything: any;
-anything = "lorem";
-anything = 123;
-anything = false;
-
-// void (vazio. Sem retorno)
-const logger = (): void => {
-  console.log("foo");
-};
-
-// null, undefined
-type Bla = string | undefined;
-
-// never
-const error = (): never => {
+const type1: any = ""; /** @any -> any type (not recommended) */
+const type2: number[] = [1, 2, 3]; /** @array -> (number[] == Array<number>) */
+const type3: boolean = true; /** @boolean -> (true | false) */
+const type4 = WeekDays.sunday; /** @enum -> predefined constants */
+const type5 = (): never => {
+  /** @never -> will never occur */
   throw new Error("error");
 };
-
-// object
-let cart: object;
-cart = {
-  key: "fi",
-};
+const type6: null = null; /** @null -> empty or doesn't exist */
+const type7: number = 10; /** @number -> (10, 10.5, -10...) */
+const type8: object = {}; /** @object -> { name: "", age: 0 } */
+const type9: string = ""; /** @string -> "John Doe" */
+const type10: [string, number] = ["", 0]; /** @tuple -> fixed array */
+const type11: undefined = undefined; /** @undefined -> not assigned any value */
+const type12: unknown = ""; /** @unknow -> type-safe counterpart of any */
+const type13 = (): void => console.log(""); /** @void -> without return */
