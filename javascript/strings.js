@@ -1,47 +1,14 @@
-// Métodos de Strings.
+const words = "Hello World! My name is Rick Parker.";
 
-
-
-const methods = [];
-
-const example = " Este é um exemplo de string";
-
-// Retorna o indíce (posição) do caractere passado na string desejada.
-methods[0] = example.indexOf("é");
-
-// Retorna todos os elementos entre uma posição e a outra.
-methods[1] = example.slice(0, 10);
-
-// Substitui uma parte da string por outra.
-methods[2] = example.replace("é", "era");
-
-// Transforma toda a string em maiúsculo.
-methods[3] = example.toUpperCase();
-
-// Transforma toda a string em minúsculo.
-methods[4] = example.toLowerCase();
-
-// Remove todos os espaços vazios da string, tanto do começo quanto do final.
-methods[5] = example.trim();
-
-// Retorna o caractere do indíce (posição) passado na string desejada.
-methods[6] = example.charAt(6);
-
-// Transforma a string em um array e a separa em um novo elemento de acordo com o caractere especificado.
-methods[7] = example.split(" ");
-
-// Verifica se algo está incluído dentro de alguma coisa.
-methods[8] = example.includes("é");
-
-// Repete algo em um número x de vezes informado.
-methods[9] = example.repeat(3);
-
-// Recebe um número mínimo de caracteres, se não for atendido exibe algo no INÍCIO da string.
-methods[10] = example.padStart(50, "*");
-
-// Recebe um número mínimo de caracteres, se não for atendido exibe algo no FINAL da string.
-methods[11] = example.padEnd(50, "*");
-
-
-
-methods.map((item, i) => console.log(`${typeof item} – ${i}: ${item}`));
+words.charAt(6); // "W"
+words.endsWith("."); // true
+words.includes("Parker"); // true
+words.indexOf("W"); // 6
+words.repeat(2); // "Hello World! My name is Rick Parker.Hello World! My name is Rick Parker."
+words.replace("World", "People"); // "Hello People! My name is Rick Parker."
+words.slice(13); // "My name is Rick Parker."
+words.split(" "); // ["Hello", "World!", "My", "name", "is", "Rick", "Parker."]
+words.startsWith("H"); // true
+words.toLowerCase(); // "hello world! my name is rick parker".
+words.toUpperCase(); // "HELLO WORLD! MY NAME IS RICK PARKER."
+words.trim(); // "Hello World! My name is Rick Parker."
