@@ -1,19 +1,12 @@
-// O laço for...in interage sobre propriedades enumeradas de um objeto.
-
 const person = {
-    name: "Rian",
- // key: value 
-    age: 20
-}
+  firstName: "John",
+  lastName: "Doe",
+  age: 20,
+};
 
-// Exibe as chaves dentro do objeto.
-for (let key in person) {
-    console.log(key);
-}
+const colors = ["red", "green", "blue"];
 
-const colors = ["Vermelho", "Verde", "Azul"];
-
-// Exibe os indíces dentro do array.
-for (let index in colors) {
-    console.log(index)
-}
+for (const key in person) console.log(key); // firstName, lastName, age
+for (const key in person) console.log(person[key]); // John, Doe, 20
+for (const color in colors) console.log(color); // 0, 1, 2
+for (const color in colors) console.log(colors[color]); // red, green, blue
