@@ -1,24 +1,24 @@
-@import '_partials';
-@import '_import';
-@import '_nesting';
-@import '_variables';
-@import '_mixins';
-@import '_conditionals';
-@import '_loops';
-@import '_extend';
-@import '_referencing';
+@import "_partials";
+@import "_import";
+@import "_nesting";
+@import "_variables";
+@import "_mixins";
+@import "_conditionals";
+@import "_loops";
+@import "_extend";
+@import "_referencing";
 
 body {
-    background-color: $bg-color;
-    font-family: $font;
+  background-color: $bg-color;
+  font-family: $font;
 }
 
 div {
-    height: $size;
+  height: $size;
 
-    @include box-shadow();
+  @include box-shadow();
 }
 
 .btn {
-    @include check-btn(alert);
+  @include check-btn(alert);
 }

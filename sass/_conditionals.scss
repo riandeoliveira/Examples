@@ -1,9 +1,9 @@
 @mixin check-btn($btn) {
-    @if $btn == danger {
-        background-color: red;
-    } @else if $btn == alert {
-        background-color: yellow;
-    } @else {
-        background-color: green;
-    }
+  @if $btn == danger {
+    background-color: red;
+  } @else if $btn == alert {
+    background-color: yellow;
+  } @else {
+    background-color: green;
+  }
 }
