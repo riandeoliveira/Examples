@@ -1,5 +1,3 @@
-// Array Methods
-
 const names = ["Rick", "Jane", "Michelle", "Richard"];
 const numbers = [45, 4, 9, 16, 25];
 
