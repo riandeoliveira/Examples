@@ -1,9 +1,11 @@
-import { Hooks } from "./examples/Hooks";
+import { FormValidation } from "./examples/FormValidation";
+import { ReactHooks } from "./examples/ReactHooks";
 
 export const App = () => {
   return (
-    <>
-      <Hooks />
-    </>
+    <div className="p-3">
+      <ReactHooks />
+      <FormValidation />
+    </div>
   );
 };
