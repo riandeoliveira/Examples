@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useReducer, useRef, useState } from "react";
+import { Button, Form } from "react-bootstrap";
 
-export const Hooks = () => {
+export const ReactHooks = () => {
   /** @useState */
   const [count, setCount] = useState<number>(0); // dynamic data that is rendered on the screen
 
@@ -51,13 +52,33 @@ export const Hooks = () => {
   }, [count]);
 
   return (
-    <div>
-      <span>Counter: {count}</span>
-      <button onClick={increment}>Click me</button>
-      <input type="text" title="ref" ref={inputRef} onChange={handleChange} />
-      <span>Value: {state}</span>
-      <button onClick={() => dispatch({ type: "increment" })}>Increment</button>
-      <button onClick={() => dispatch({ type: "decrement" })}>Decrement</button>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "12px",
+        maxWidth: "480px",
+      }}
+    >
+      <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+        <span>Counter: {count}</span>
+        <Button onClick={increment}>Click me</Button>
+      </div>
+      <Form.Control
+        type="text"
+        title="ref"
+        ref={inputRef}
+        onChange={handleChange}
+      />
+      <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+        <span>Value: {state}</span>
+        <Button onClick={() => dispatch({ type: "increment" })}>
+          Increment
+        </Button>
+        <Button onClick={() => dispatch({ type: "decrement" })}>
+          Decrement
+        </Button>
+      </div>
     </div>
   );
 };
