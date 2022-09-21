@@ -20,10 +20,9 @@
 ## React:
 
 - [x] Advanced Hooks
-- [ ] React Hook Form
+- [x] React Hook Form
 - [ ] Redux Toolkit?
 - [ ] Testing Library
-- [ ] Yup
 
 ## TypeScript:
 
@@ -33,9 +32,14 @@
 
 ## Others:
 
+- [ ] Advanced Git
+- [ ] Advanced Terminal
+- [ ] Astro
 - [ ] Batch Programming
+- [ ] Bun - JS Runtime
 - [ ] Computer Networks
 - [ ] Cypress
+- [ ] Deno - JS Runtime
 - [ ] Docker
 - [ ] Electron
 - [ ] Firebase
