@@ -1,5 +1,9 @@
 # 📚 To Study (2022 - 2024) 🚀
 
+## CSS:
+
+- [ ] Grid Layout
+
 ## JavaScript:
 
 - [ ] Regular Expressions
@@ -21,7 +25,6 @@
 
 - [x] Advanced Hooks
 - [x] React Hook Form
-- [ ] Redux Toolkit?
 - [ ] Testing Library
 
 ## TypeScript:
