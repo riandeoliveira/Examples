@@ -17,6 +17,6 @@ boolean_type = False  # bool
 
 binary_type_1 = b'Hello'  # bytes
 binary_type_2 = bytearray(5)  # bytearray
-binary_type_3 = ''  # memoryview
+binary_type_3 = memoryview(b'World')  # memoryview
 
 none_type = None  # NoneType
