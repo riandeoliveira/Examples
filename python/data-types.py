@@ -8,7 +8,12 @@ sequence_type_1 = ["apple", "banana", "cherry"]  # list
 sequence_type_2 = (1, 2, 3, 4, 5)  # tuple
 sequence_type_3 = range(5)  # range
 
-mapping_type = {"name": "John", "age": 20, "single": True}  # dict
+# dict
+mapping_type = {
+    "name": "John",
+    "age": 20,
+    "single": True
+}
 
 set_type_1 = {"John", 20, True}  # set
 set_type_2 = frozenset({"John", 20, True})  # frozenset
