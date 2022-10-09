@@ -44,20 +44,20 @@ h2 {
   background-color: #303030;
   border-radius: inherit;
   display: flex;
-  height: 100px;
   justify-content: center;
+  min-height: 100px;
 }
 
 .box-1 {
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .box-2 {
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
 }
 
 .box-3 {
-  grid-template-rows: 2fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr 2fr 1fr;
 }
 
 .box-4 {
@@ -75,4 +75,30 @@ h2 {
 .box-7 {
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: 2fr 2fr 1fr;
+}
+
+.box-8 {
+  grid-template-areas:
+    "header header header header"
+    "main main main aside"
+    "main main main aside"
+    "footer footer footer footer";
+  grid-template-rows: 0fr 1fr 1fr 0fr;
+  height: 800px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.footer {
+  grid-area: footer;
 }

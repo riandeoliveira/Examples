@@ -11,21 +11,21 @@
     <div class="layout">
       <div class="layout-container">
         <h1>CSS Grid Layout</h1>
-        <h2>grid-template-rows: 1fr</h2>
+        <h2>grid-template-rows: 1fr 1fr 1fr 1fr</h2>
         <div class="container box-1">
           <div class="area">1</div>
           <div class="area">2</div>
           <div class="area">3</div>
           <div class="area">4</div>
         </div>
-        <h2>grid-template-rows: 1fr 2fr 1fr</h2>
+        <h2>grid-template-rows: 1fr 2fr 1fr 1fr</h2>
         <div class="container box-2">
           <div class="area">1</div>
           <div class="area">2</div>
           <div class="area">3</div>
           <div class="area">4</div>
         </div>
-        <h2>grid-template-rows: 2fr 1fr 2fr</h2>
+        <h2>grid-template-rows: 2fr 1fr 2fr 1fr</h2>
         <div class="container box-3">
           <div class="area">1</div>
           <div class="area">2</div>
@@ -54,7 +54,9 @@
           <div class="area">4</div>
         </div>
         <h2>
-          grid-template-columns: 2fr 1fr 2fr <br />
+          grid-template-columns: 2fr 1fr 2fr
+          <br />
+          <br />
           grid-template-rows: 2fr 2fr 1fr
         </h2>
         <div class="container box-7">
@@ -67,6 +69,21 @@
           <div class="area">7</div>
           <div class="area">8</div>
           <div class="area">9</div>
+        </div>
+        <h2>
+          grid-template-areas: <br />
+          "header header header header" <br />
+          "main main main aside" <br />
+          "main main main aside" <br />
+          "footer footer footer footer" <br />
+          <br />
+          grid-template-rows: 0fr 1fr 1fr 0fr
+        </h2>
+        <div class="container box-8">
+          <div class="area header">Header</div>
+          <div class="area main">Main</div>
+          <div class="area aside">Aside</div>
+          <div class="area footer">Footer</div>
         </div>
       </div>
     </div>
