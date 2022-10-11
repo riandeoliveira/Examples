@@ -13,7 +13,4 @@ const files = [
 
 const tags = "<p>Olá mundo</p><p>Olá de novo</p>";
 
-const alphabet =
-  "ABCDEFGHIJKLMNOPQSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789";
-
-module.exports = { text, files, tags, alphabet };
+module.exports = { text, files, tags };
