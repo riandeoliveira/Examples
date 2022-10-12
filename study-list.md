@@ -2,11 +2,11 @@
 
 ## CSS:
 
-- [ ] Grid Layout
+- [x] Grid Layout
 
 ## JavaScript:
 
-- [ ] Regular Expressions
+- [x] Regular Expressions - Fundamentals
 
 ## Next.js:
 
@@ -19,7 +19,7 @@
 - [ ] C - Fundamentals
 - [ ] C# - Fundamentals
 - [ ] C++ - Fundamentals
-- [ ] Python - Fundamentals and libs
+- [x] Python - Fundamentals and libs
 
 ## React:
 
@@ -38,7 +38,7 @@
 - [ ] Advanced Git
 - [ ] Advanced Terminal
 - [ ] Astro
-- [ ] Batch Programming
+- [x] Batch Programming
 - [ ] Bun - JS Runtime
 - [ ] Computer Networks
 - [ ] Cypress
@@ -46,6 +46,7 @@
 - [ ] Docker
 - [ ] Electron
 - [ ] Firebase
+- [ ] GitHub CLI
 - [ ] GraphQL
 - [ ] Jest
 - [ ] React Native
