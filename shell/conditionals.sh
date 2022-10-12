@@ -3,11 +3,9 @@
 NAME="John"
 
 # (if / else / elif) statements
-if [ $NAME == "John" ]
-then
+if [ $NAME == "John" ]; then
   echo "Hi John!"
-elif [ $NAME == "Jack" ]
-then
+elif [ $NAME == "Jack" ]; then
   echo "Hi Jack!"
 else
   echo "Who are you?"

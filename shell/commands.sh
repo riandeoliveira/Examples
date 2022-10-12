@@ -15,8 +15,26 @@ clear
 # copy files or directories
 cp file.txt file_final.txt
 
+# write to file instead of stdout
+curl https://api.github.com/users/riandeoliveira -o data.json
+
+# allows you to transfer data to or from a network server
+curl https://example.com
+
+# include protocol response headers in the output
+curl https://example.com -i
+
+# show document info only
+curl https://example.com -I
+
+# allows you to set or display the system date and time
+date
+
 # display a line of text that is passed in as an argument
 echo Hello World
+
+# used to exit a shell with a given status
+exit
 
 # get information from a specific file
 file something.txt
@@ -63,8 +81,17 @@ rm -r file.txt
 # remove a file or directory without asking for permission
 rm -rf large-dir
 
+# allows you to suspend the calling process for a specified time
+sleep
+
+# start a program, command or batch script (opens in a new window)
+start
+
 # create one or more new files
 touch new-file.txt
 
 # identify and report the location of the provided executable
 which python3
+
+# displays the currently logged-in user
+whoami
