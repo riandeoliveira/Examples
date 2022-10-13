@@ -38,7 +38,6 @@
 - [ ] Advanced Git
 - [ ] Advanced Terminal
 - [ ] Astro
-- [x] Batch Programming
 - [ ] Bun - JS Runtime
 - [ ] Computer Networks
 - [ ] Cypress
@@ -47,7 +46,9 @@
 - [ ] Electron
 - [ ] Firebase
 - [ ] GitHub CLI
+- [ ] Google Advanced Search
 - [ ] GraphQL
 - [ ] Jest
 - [ ] React Native
 - [ ] Svelte
+- [x] Batch Programming
