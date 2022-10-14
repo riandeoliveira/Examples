@@ -45,7 +45,7 @@
 - [ ] Docker
 - [ ] Electron
 - [ ] Firebase
-- [ ] GitHub CLI
+- [x] GitHub CLI
 - [ ] Google Advanced Search
 - [ ] GraphQL
 - [ ] Jest
