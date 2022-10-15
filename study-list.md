@@ -38,6 +38,7 @@
 - [ ] Advanced Git
 - [ ] Advanced Terminal
 - [ ] Astro
+- [x] Batch Programming
 - [ ] Bun - JS Runtime
 - [ ] Computer Networks
 - [ ] Cypress
@@ -51,4 +52,3 @@
 - [ ] Jest
 - [ ] React Native
 - [ ] Svelte
-- [x] Batch Programming
