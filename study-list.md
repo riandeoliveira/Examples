@@ -1,4 +1,4 @@
-# 📚 To Study (2022 - 2024) 🚀
+# 📚 To Study!!! 🚀
 
 ## CSS:
 
@@ -8,11 +8,17 @@
 
 - [x] Regular Expressions - Fundamentals
 
-## Next.js:
+## NextJS:
 
 - [ ] getServerSideProps
 - [ ] getStaticPaths
 - [ ] getStaticProps
+
+## NodeJS
+
+- [ ] Authentication with JWT Token
+- [ ] Microservices
+- [ ] SOLID Principles
 
 ## Programming Languages:
 
@@ -20,6 +26,11 @@
 - [ ] C# - Fundamentals
 - [ ] C++ - Fundamentals
 - [x] Python - Fundamentals and libs
+
+## Python:
+
+- [ ] PyautoGUI
+- [ ] Selenium
 
 ## React:
 
@@ -30,13 +41,13 @@
 ## TypeScript:
 
 - [x] keyof / typeof
-- [ ] SOLID Principles
 - [x] Utility Types
 
 ## Others:
 
-- [ ] Advanced Git
-- [ ] Advanced Terminal
+- [x] Advanced Git
+- [x] Advanced Terminal
+- [ ] Arduino
 - [ ] Astro
 - [x] Batch Programming
 - [ ] Bun - JS Runtime
@@ -50,5 +61,7 @@
 - [ ] Google Advanced Search
 - [ ] GraphQL
 - [ ] Jest
+- [ ] Linux
+- [ ] Raspberry Pi
 - [ ] React Native
 - [ ] Svelte
