@@ -17,6 +17,7 @@
 ## NodeJS
 
 - [ ] Authentication with JWT Token
+- [ ] Authentication with OAuth2
 - [ ] Microservices
 - [ ] SOLID Principles
 
@@ -47,6 +48,7 @@
 
 - [x] Advanced Git
 - [x] Advanced Terminal
+- [ ] Angular - Fundamentals
 - [ ] Arduino
 - [ ] Astro
 - [x] Batch Programming
@@ -64,4 +66,4 @@
 - [ ] Linux
 - [ ] Raspberry Pi
 - [ ] React Native
-- [ ] Svelte
+- [ ] Svelte - Fundamentals
