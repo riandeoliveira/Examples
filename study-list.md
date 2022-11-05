@@ -23,10 +23,13 @@
 
 ## Programming Languages:
 
-- [ ] C - Fundamentals
-- [ ] C# - Fundamentals
-- [ ] C++ - Fundamentals
-- [x] Python - Fundamentals and libs
+- [ ] C
+- [ ] C#
+- [ ] C++
+- [ ] Elixir
+- [ ] Java
+- [x] Python
+- [ ] Rust
 
 ## Python:
 
