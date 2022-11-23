@@ -23,4 +23,5 @@ class Person implements IPerson {
 }
 
 $person = new Person('John Doe', 20.5, true); // Expected type 'int'. Found 'float'.
+
 $person->speak(5); // Expected type 'string'. Found 'int'.
