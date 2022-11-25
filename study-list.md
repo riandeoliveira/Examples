@@ -1,72 +1,52 @@
 # 📚 To Study!!! 🚀
 
-## CSS:
+| NodeJS 🖥️                     | When 🕑      | Status 📚   |
+| ----------------------------- | ------------ | ----------- |
+| Authentication with JWT Token | October 2022 | Learned ✅  |
+| Authentication with OAuth2    | ???          | To Learn ❌ |
+| Microservices                 | ???          | To Learn ❌ |
+| SOLID Principles              | ???          | To Learn ❌ |
 
-- [x] Grid Layout
+| PHP 🖥️            | When 🕑       | Status 📚   |
+| ----------------- | ------------- | ----------- |
+| Laravel Framework | November 2022 | To Learn 🟡 |
+| Redis             | December 2022 | To Learn ❌ |
 
-## JavaScript:
+| Programming Languages 🖥️ | When 🕑       | Status 📚   |
+| ------------------------ | ------------- | ----------- |
+| C                        | January 2023  | To Learn ❌ |
+| C#                       | March 2023    | To Learn ❌ |
+| C++                      | February 2023 | To Learn ❌ |
+| Elixir                   | ???           | To Learn ❌ |
+| Java                     | ???           | To Learn ❌ |
+| PHP                      | November 2022 | Learning 🟡 |
+| Rust                     | ???           | To Learn ❌ |
 
-- [x] Regular Expressions - Fundamentals
+| SQL 🖥️          | When 🕑 | Status 📚   |
+| --------------- | ------- | ----------- |
+| Fundamentals    | ???     | To Learn ❌ |
+| MySQL Workbench | ???     | To Learn ❌ |
 
-## NextJS:
+| Python 🖥️ | When 🕑 | Status 📚   |
+| --------- | ------- | ----------- |
+| PyautoGUI | ???     | To Learn ❌ |
+| Selenium  | ???     | To Learn ❌ |
 
-- [ ] getServerSideProps
-- [ ] getStaticPaths
-- [ ] getStaticProps
-
-## NodeJS
-
-- [ ] Authentication with JWT Token
-- [ ] Authentication with OAuth2
-- [ ] Microservices
-- [ ] SOLID Principles
-
-## Programming Languages:
-
-- [ ] C
-- [ ] C#
-- [ ] C++
-- [ ] Elixir
-- [ ] Java
-- [x] Python
-- [ ] Rust
-
-## Python:
-
-- [ ] PyautoGUI
-- [ ] Selenium
-
-## React:
-
-- [x] Advanced Hooks
-- [x] React Hook Form
-- [ ] Testing Library
-
-## TypeScript:
-
-- [x] keyof / typeof
-- [x] Utility Types
-
-## Others:
-
-- [x] Advanced Git
-- [x] Advanced Terminal
-- [ ] Angular - Fundamentals
-- [ ] Arduino
-- [ ] Astro
-- [x] Batch Programming
-- [ ] Bun - JS Runtime
-- [ ] Computer Networks
-- [ ] Cypress
-- [ ] Deno - JS Runtime
-- [ ] Docker
-- [ ] Electron
-- [ ] Firebase
-- [x] GitHub CLI
-- [ ] Google Advanced Search
-- [ ] GraphQL
-- [ ] Jest
-- [ ] Linux
-- [ ] Raspberry Pi
-- [ ] React Native
-- [ ] Svelte - Fundamentals
+| Others 🖥️              | When 🕑 | Status 📚   |
+| ---------------------- | ------- | ----------- |
+| Angular                | ???     | To Learn ❌ |
+| Arduino                | ???     | To Learn ❌ |
+| Astro                  | ???     | To Learn ❌ |
+| Bun                    | ???     | To Learn ❌ |
+| Computer Networks      | ???     | To Learn ❌ |
+| Cypress                | ???     | To Learn ❌ |
+| Deno                   | ???     | To Learn ❌ |
+| Docker                 | ???     | To Learn ❌ |
+| Electron               | ???     | To Learn ❌ |
+| Firebase               | ???     | To Learn ❌ |
+| Google Advanced Search | ???     | To Learn ❌ |
+| GraphQL                | ???     | To Learn ❌ |
+| Linux                  | ???     | To Learn ❌ |
+| Raspberry Pi           | ???     | To Learn ❌ |
+| React Native           | ???     | To Learn ❌ |
+| Svelte                 | ???     | To Learn ❌ |
