@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # adds a change in the working directory to the staging area
-git add "file.txt" # git ad
+git add "file.txt"
 
 # delete the specific branch
 git branch -d "develop"
@@ -13,10 +13,10 @@ git branch -m "dev"
 git branch "develop"
 
 # list all branches in the repository
-git branch # git br
+git branch
 
 # navigate between branches created by git branch
-git checkout "develop" # git co
+git checkout "develop"
 
 # creates a copy of a specific repository or branch within a repository
 git clone "https://github.com/user/repo" "local-repo"
@@ -25,7 +25,7 @@ git clone "https://github.com/user/repo" "local-repo"
 git commit --amend -m "refactor: update message"
 
 # captures a snapshot of the project's currently staged changes
-git commit -m "feat: initial commit" # git cm
+git commit -m "feat: initial commit"
 
 # shows all Git config properties throughout all of the variously scoped git files
 git config --list
@@ -46,7 +46,7 @@ git diff
 git flow init
 
 # creates a new git repository
-git init # git in
+git init
 
 # displays all of the commits in a repository's history
 git log
@@ -67,7 +67,7 @@ git merge "develop"
 git pull origin "main"
 
 # transfer commits from the local repository to a remote repository
-git push origin "main" # git po
+git push origin "main"
 
 # displays the remote repository url
 git remote -v
@@ -88,4 +88,4 @@ git reset --hard
 git show
 
 # displays the state of the working directory and the staging area
-git status # git st
+git status
