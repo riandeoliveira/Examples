@@ -9,7 +9,7 @@
 
 | PHP 🖥️            | When 🕑       | Status 📚   |
 | ----------------- | ------------- | ----------- |
-| Laravel Framework | November 2022 | To Learn 🟡 |
+| Laravel Framework | November 2022 | Learning 🟡 |
 | Redis             | December 2022 | To Learn ❌ |
 
 | Programming Languages 🖥️ | When 🕑       | Status 📚   |
@@ -32,21 +32,21 @@
 | PyautoGUI | ???     | To Learn ❌ |
 | Selenium  | ???     | To Learn ❌ |
 
-| Others 🖥️              | When 🕑 | Status 📚   |
-| ---------------------- | ------- | ----------- |
-| Angular                | ???     | To Learn ❌ |
-| Arduino                | ???     | To Learn ❌ |
-| Astro                  | ???     | To Learn ❌ |
-| Bun                    | ???     | To Learn ❌ |
-| Computer Networks      | ???     | To Learn ❌ |
-| Cypress                | ???     | To Learn ❌ |
-| Deno                   | ???     | To Learn ❌ |
-| Docker                 | ???     | To Learn ❌ |
-| Electron               | ???     | To Learn ❌ |
-| Firebase               | ???     | To Learn ❌ |
-| Google Advanced Search | ???     | To Learn ❌ |
-| GraphQL                | ???     | To Learn ❌ |
-| Linux                  | ???     | To Learn ❌ |
-| Raspberry Pi           | ???     | To Learn ❌ |
-| React Native           | ???     | To Learn ❌ |
-| Svelte                 | ???     | To Learn ❌ |
+| Others 🖥️              | When 🕑       | Status 📚   |
+| ---------------------- | ------------- | ----------- |
+| Angular                | ???           | To Learn ❌ |
+| Arduino                | ???           | To Learn ❌ |
+| Astro                  | ???           | To Learn ❌ |
+| Bun                    | ???           | To Learn ❌ |
+| Computer Networks      | ???           | To Learn ❌ |
+| Cypress                | ???           | To Learn ❌ |
+| Deno                   | ???           | To Learn ❌ |
+| Docker                 | November 2022 | Learning 🟡 |
+| Electron               | ???           | To Learn ❌ |
+| Firebase               | ???           | To Learn ❌ |
+| Google Advanced Search | ???           | To Learn ❌ |
+| GraphQL                | ???           | To Learn ❌ |
+| Linux (WSL)            | December 2022 | Learning 🟡 |
+| Raspberry Pi           | ???           | To Learn ❌ |
+| React Native           | ???           | To Learn ❌ |
+| Svelte                 | ???           | To Learn ❌ |
