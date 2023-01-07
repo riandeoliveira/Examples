@@ -1,20 +1,9 @@
 #!/bin/bash
 
-function compile_c_file() {
-    C_FILE=$1
+C_FILE_NAME="functions.c"
+C_FILE_PATH="$(find -iname $C_FILE_NAME)"
+EXE_FILE_PATH="./c/example"
 
-    gcc -o example $C_FILE
-}
+gcc -o $EXE_FILE_PATH $C_FILE_PATH
 
-function run_exe_file() {
-    EXE_FILE=$1
-
-    $EXE_FILE
-}
-
-function init() {
-    compile_c_file $1
-    run_exe_file $2
-}
-
-init "./src/calculator.c" "./example.exe"
+$EXE_FILE_PATH
