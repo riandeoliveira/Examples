@@ -1,8 +1,13 @@
 #!/bin/bash
 
-C_FILE_NAME="arrays.c"
+BASH_FILE_NAME="run.sh"
+EXE_FILE_NAME="example.exe"
+C_FILE_NAME="input.c"
+
+BASH_SRC_DIR="$(find -iname $BASH_FILE_NAME -printf '%h\n')"
+
+EXE_FILE_PATH="$BASH_SRC_DIR/$EXE_FILE_NAME"
 C_FILE_PATH="$(find -iname $C_FILE_NAME)"
-EXE_FILE_PATH="./c/example"
 
 gcc -o $EXE_FILE_PATH $C_FILE_PATH
 
