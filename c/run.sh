@@ -2,7 +2,7 @@
 
 BASH_FILE_NAME="run.sh"
 EXE_FILE_NAME="example.exe"
-C_FILE_NAME="array-sort.c"
+C_FILE_NAME="typedef.c"
 
 BASH_SRC_DIR="$(find -iname $BASH_FILE_NAME -printf '%h\n')"
 
