@@ -2,7 +2,7 @@
 
 BASH_FILE_NAME="run.sh"
 EXE_FILE_NAME="example.exe"
-C_FILE_NAME="random-numbers.c"
+C_FILE_NAME="number-guessing.c"
 
 BASH_SRC_DIR="$(find -iname $BASH_FILE_NAME -printf '%h\n')"
 
