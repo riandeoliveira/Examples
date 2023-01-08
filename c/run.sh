@@ -2,7 +2,7 @@
 
 BASH_FILE_NAME="run.sh"
 EXE_FILE_NAME="example.exe"
-C_FILE_NAME="array-structs.c"
+C_FILE_NAME="enums.c"
 
 BASH_SRC_DIR="$(find -iname $BASH_FILE_NAME -printf '%h\n')"
 
