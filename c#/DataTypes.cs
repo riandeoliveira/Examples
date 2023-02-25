@@ -1,4 +1,4 @@
-class DataTypes
+public class DataTypes
 {
     // System.Boolean
     bool single = true; // true | false
